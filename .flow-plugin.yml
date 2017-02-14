@@ -21,3 +21,17 @@ outputs:
   - name: FLOW_ESLINT_LOG_PATH
 
 script_path: ./run.sh
+
+template: |
+  <table>
+    <tr style="font-size: 26px;">
+      <td style="min-width: 100px; background-color: #f25367; color: white; padding: 8px 16px;">${FLOW_ESLINT_ERROR_COUNT}</td>
+      <td style="min-width: 100px; background-color: #8D9094; color: white; padding: 8px 16px;">${FLOW_ESLINT_FILE_COUNT}</td>
+      <td style="min-width: 100px; background-color: #F8CC1C; color: white; padding: 8px 16px;">${FLOW_ESLINT_WARNING_COUNT}</td>
+    </tr>
+    <tr style="font-size: 12px;">
+      <td style="opacity: .8;background-color: #f25367; color: white; padding: 8px 16px;">Error</td>
+      <td style="opacity: .8;background-color: #8D9094; color: white; padding: 8px 16px;">Files</td>
+      <td style="opacity: .8;background-color: #F8CC1C; color: white; padding: 8px 16px;">Warnings</td>
+    </tr>
+  </table>
