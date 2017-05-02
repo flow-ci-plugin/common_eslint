@@ -2,7 +2,10 @@ name: eslint_plugin
 version: 0.0.1
 language: nodejs
 description: |
-  Eslint插件是代码质量检测工具，[Eslint](http://eslint.org/)的官方地址[链接](http://eslint.org)，原理是此插件先检测项目是否使用了Eslint，如果使用了Eslint则直接执行`eslint .`命令来输出标准信息，假如检测到没有使用eslint，则会进行基本的语法检测，基本的检测规则点击[链接](https://raw.githubusercontent.com/FIRHQ/code-quality-configs/master/eslintrc.yml)
+  Eslint插件是代码质量检测工具，[Eslint](http://eslint.org/)的官方地址[链接](http://eslint.org)，
+原理是此插件先检测项目是否使用了Eslint，如果使用了Eslint则直接执行`eslint .`命令来输出标准信息，
+假如检测到没有使用eslint，则会进行基本的语法检测，基本的检测规则点击
+[链接](https://raw.githubusercontent.com/FIRHQ/code-quality-configs/master/eslintrc.yml)
 - 注意事项
   此插件并不是必须的，可以选择使用
 tags:
